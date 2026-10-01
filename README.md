@@ -434,14 +434,14 @@ docker-compose up --build
     <tr>
         <td><img src="./public/static/undefined/Rainan.jpg" width="80"></td>
         <td>Rainan de Oliveira Reis</td>
-        <td>Product Owner & Dev Frontend</td>
+        <td>Product Owner & Dev Fullstack</td>
         <td><a href="https://www.linkedin.com/in/rainan-reis-757384365/">LinkedIn</a></td>
         <td><a href="https://github.com/RainanKaneka">GitHub</a></td>
     </tr>
     <tr>
         <td><img src="./public/static/undefined/Thales.jpg" width="80"></td>
         <td>Thales Cambraia Dias</td>
-        <td>Scrum Master & Dev Fullstack</td>
+        <td>Scrum Master & Dev Frontend</td>
         <td><a href="https://www.linkedin.com/in/thales-tcd/">LinkedIn</a></td>
         <td><a href="https://github.com/thalestcd">GitHub</a></td>
     </tr>
