@@ -432,68 +432,63 @@ docker-compose up --build
         <th>GitHub</th>
     </tr>
     <tr>
-        <td><img src="./public/static/undefined/Marcus.jpg" width="80"></td>
-        <td>Marcus Vinicius Ribeiro do Nascimento</td>
-        <td>Product Owner</td>
-        <td><a href="https://www.linkedin.com/in/marcus-nascimento-50a0ba1b5">LinkedIn</a></td>
-        <td><a href="https://github.com/MarcusVRDN">GitHub</a></td>
-    </tr>
-    <tr>
-        <td><img src="./public/static/undefined/Pedro.jpg" width="80"></td>
-        <td>Pedro Augusto Gomes</td>
-        <td>Scrum Master</td>
-        <td><a href="https://www.linkedin.com/in/pedro-augusto-gomes">LinkedIn</a></td>
-        <td><a href="https://github.com/PedrinhoDBR">GitHub</a></td>
-    </tr>
-    <tr>
-        <td><img src="./public/static/undefined/Israel.jpg" width="80"></td>
-        <td>Israel da Silva Lemes</td>
-        <td>Dev</td>
-        <td><a href="https://www.linkedin.com/in/israel-lemes/">LinkedIn</a></td>
-        <td><a href="https://github.com/Israelisl">GitHub</a></td>
-    </tr>
-    <tr>
-        <td><img src="./public/static/undefined/Lorena.jpg" width="80"></td>
-        <td>João Paulo Lorena Dias da Silva</td>
-        <td>Dev</td>
-        <td><a href="https://www.linkedin.com/in/jo%C3%A3o-lorena-056b95271">LinkedIn</a></td>
-        <td><a href="https://github.com/Jonnaes">GitHub</a></td>
-    </tr>
-    <tr>
-        <td><img src="./public/static/undefined/Nadla.jpg" width="80"></td>
-        <td>Nadla Fernandes Ferreira</td>
-        <td>Dev</td>
-        <td><a href="https://www.linkedin.com/in/nadla-ferreira-4646433a8/">LinkedIn</a></td>
-        <td><a href="https://github.com/NadlaFernandes">GitHub</a></td>
-    </tr>
-    <tr>
         <td><img src="./public/static/undefined/Rainan.jpg" width="80"></td>
         <td>Rainan de Oliveira Reis</td>
-        <td>Dev</td>
+        <td>Product Owner & Dev Frontend</td>
         <td><a href="https://www.linkedin.com/in/rainan-reis-757384365/">LinkedIn</a></td>
         <td><a href="https://github.com/RainanKaneka">GitHub</a></td>
     </tr>
     <tr>
         <td><img src="./public/static/undefined/Thales.jpg" width="80"></td>
         <td>Thales Cambraia Dias</td>
-        <td>Dev</td>
+        <td>Scrum Master & Dev Fullstack</td>
         <td><a href="https://www.linkedin.com/in/thales-tcd/">LinkedIn</a></td>
         <td><a href="https://github.com/thalestcd">GitHub</a></td>
+    </tr>
+    <tr>
+        <td><img src="./public/static/undefined/Pedro.jpg" width="80"></td>
+        <td>Pedro Augusto Gomes</td>
+        <td>Dev Backend & DevOps</td>
+        <td><a href="https://www.linkedin.com/in/pedro-augusto-gomes">LinkedIn</a></td>
+        <td><a href="https://github.com/PedrinhoDBR">GitHub</a></td>
+    </tr>
+    <tr>
+        <td><img src="./public/static/undefined/Marcus.jpg" width="80"></td>
+        <td>Marcus Vinicius Ribeiro do Nascimento</td>
+        <td>Dev Backend</td>
+        <td><a href="https://www.linkedin.com/in/marcus-nascimento-50a0ba1b5">LinkedIn</a></td>
+        <td><a href="https://github.com/MarcusVRDN">GitHub</a></td>
+    </tr>
+    <tr>
+        <td><img src="./public/static/undefined/Israel.jpg" width="80"></td>
+        <td>Israel da Silva Lemes</td>
+        <td>Dev Backend</td>
+        <td><a href="https://www.linkedin.com/in/israel-lemes/">LinkedIn</a></td>
+        <td><a href="https://github.com/Israelisl">GitHub</a></td>
+    </tr>
+    <tr>
+        <td><img src="./public/static/undefined/Nadla.jpg" width="80"></td>
+        <td>Nadla Fernandes Ferreira</td>
+        <td>Dev Frontend & UI/UX</td>
+        <td><a href="https://www.linkedin.com/in/nadla-ferreira-4646433a8/">LinkedIn</a></td>
+        <td><a href="https://github.com/NadlaFernandes">GitHub</a></td>
     </tr>
 </table>
 
 <hr>
 
 <h2 id="documentacao">🖺 Documentação</h2>
-
-<h3 id="bancodedados">Banco de Dados e ORM</h3>
-<p><em>Mapeamento das entidades relacionais gerenciadas via ORM no NestJS.</em></p>
-
-<h3 id="casosdeuso">Casos de Uso</h3>
-<p><em>Diagrama em desenvolvimento.</em></p>
-
-<h3 id="classes">Diagrama de Classes</h3>
-<p><em>Diagrama em desenvolvimento.</em></p>
-
-<h3 id="ihc">IHC e Avaliação de Usabilidade</h3>
-<p><em>Protótipos e relatórios de usabilidade a serem vinculados conforme RP09.</em></p>
+<p>Toda a documentação técnica e de processos está organizada no diretório <a href="./docs/README.md"><code>docs/</code></a>:</p>
+<ul>
+    <li>📋 <a href="./docs/plano-de-entregas.md"><strong>Plano de Entregas das Sprints</strong></a> — Distribuição dos 28 critérios da rubrica e participação dos integrantes.</li>
+    <li>✅ <a href="./docs/definicao-de-pronto.md"><strong>Definição de Pronto (DoD)</strong></a> — Critérios de aceite e qualidade para conclusão de tarefas (GA07).</li>
+    <li>🏗️ <a href="./docs/arquitetura.md"><strong>Arquitetura de Software</strong></a> — Estrutura NestJS, React, PostgreSQL, Docker e fluxo de dados.</li>
+    <li>⚡ <a href="./docs/calculos.md"><strong>Memória de Cálculo Ambiental</strong></a> — Fórmulas matemáticas de kWh, emissão de CO₂e e fatores regionais.</li>
+    <li>🔌 <a href="./docs/api.md"><strong>Documentação da API REST</strong></a> — Endpoints, métodos HTTP, DTOs e autenticação JWT.</li>
+    <li>🎨 <a href="./docs/interface.md"><strong>Interface e Usabilidade (IHC)</strong></a> — Personas, fluxos, protótipos Figma e testes de usabilidade.</li>
+    <li>⏱️ <strong>Sprints:</strong>
+        <a href="./docs/sprints/sprint-1.md">Sprint 1</a> | 
+        <a href="./docs/sprints/sprint-2.md">Sprint 2</a> | 
+        <a href="./docs/sprints/sprint-3.md">Sprint 3</a>
+    </li>
+</ul>
