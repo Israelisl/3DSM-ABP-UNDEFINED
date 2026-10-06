@@ -1,0 +1,23 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #17362b;
+  background: #f5f8f6;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: min(100% - 2rem, 48rem);
+  margin: 3rem auto;
+}
+
+h1 {
+  line-height: 1.2;
+}

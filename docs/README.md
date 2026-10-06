@@ -13,6 +13,7 @@ Este diretório contém todos os artefatos de engenharia de software, modelagem,
 | [📋 Plano de Entregas](plano-de-entregas.md) | Mapeamento das 3 Sprints, distribuição dos 28 critérios da rubrica e tabela de participação dos 6 integrantes. | GA01, GA02, GA09, DW01 |
 | [✅ Definição de Pronto (DoD)](definicao-de-pronto.md) | Critérios objetivos e checklist de qualidade para considerar qualquer tarefa como concluída. | GA07, TP01, TP03 |
 | [🏗️ Arquitetura do Sistema](arquitetura.md) | Visão geral da arquitetura de software, componentes NestJS e React, fluxo de dados e decisões técnicas. | DW01, DW03, TP01, TP02 |
+| [Base do Frontend: guia para iniciantes](frontend-setup.md) | Implementação de React, TypeScript e Vite, scripts, serviço HTTP, proxy, Git e validações da parte de Rainan na #25. | Documentação da task #25 |
 | [⚡ Memória de Cálculo Ambiental](calculos.md) | Fórmulas matemáticas, fatores de emissão, unidades (kWh, gCO₂e), constantes e exemplos práticos dos cálculos. | DW02, TP04 |
 | [🔌 Documentação da API](api.md) | Especificação detalhada dos endpoints REST, métodos HTTP, payloads, respostas e autenticação via JWT. | DW03, DW06, DW07 |
 | [🎨 Interface e Usabilidade (IHC)](interface.md) | Levantamento de Personas e tarefas, links dos protótipos Figma, acessibilidade e relatório de testes de usabilidade. | IHC01, IHC02, IHC03, IHC04, IHC05, IHC06 |

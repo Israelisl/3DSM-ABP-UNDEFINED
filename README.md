@@ -95,6 +95,19 @@ cd 3DSM-ABP-UNDEFINED
     <li>Backend: <a href="http://localhost:3000">http://localhost:3000</a></li>
 </ul>
 
+<h3>Frontend: execução local independente</h3>
+<p>A base do frontend pode ser executada sem iniciar o backend. Use Node 24.x e npm 11.x.</p>
+<pre><code>cd frontend
+npm.cmd ci
+npm.cmd run dev
+</code></pre>
+<p>Acesse <a href="http://localhost:5173">http://localhost:5173</a>.
+No PowerShell, <code>npm.cmd</code> evita o bloqueio de <code>npm.ps1</code>;
+em outros terminais, <code>npm</code> também funciona.</p>
+<p>Leia o <a href="./frontend/README.md">guia rápido do frontend</a> e
+o <a href="./docs/frontend-setup.md">guia detalhado da implementação</a>.
+A integração completa em Docker e as páginas/rotas ainda estão em desenvolvimento.</p>
+
 <h3>Para resetar o banco de dados</h3>
 <pre><code>docker-compose down -v
 docker-compose up --build
