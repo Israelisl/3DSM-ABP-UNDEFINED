@@ -20,11 +20,11 @@ Os itens abaixo foram extraídos do Product Backlog com base nas prioridades MoS
 
 | Issue | Tipo | Descrição Resumida | Estimativa (SP) | Responsáveis | Status |
 | :---: | :---: | :--- | :---: | :--- | :---: |
-| **#22** | Tarefa Técnica | [PBI-22] Setup Docker Compose (NestJS, React, PostgreSQL) | 5 | Thales Cambraia, Pedro Gomes | Em andamento |
-| **#24** | Tarefa Técnica | [TASK] Setup da estrutura base do backend NestJS com TypeScript | 3 | Israel Lemes, Thales Cambraia | Em andamento |
-| **#25** | Tarefa Técnica | [TASK] Setup da estrutura base do frontend React com Vite + TS | 3 | Rainan Reis, Nadla Ferreira | Em andamento |
-| **#26** | Tarefa Técnica | [TASK] Configuração de variáveis de ambiente (.env.example) | 2 | Thales Cambraia, Pedro Gomes | Em andamento |
-| **#27** | Tarefa Técnica | [TASK] Modelagem relacional e migrações PostgreSQL via ORM | 5 | Israel Lemes, Marcus Nascimento | Em andamento |
+| **#22** | Tarefa Técnica | [PBI-22] Setup Docker Compose (NestJS, React, PostgreSQL) | 5 | Marcus Nascimento, Pedro Gomes | Em andamento |
+| **#24** | Tarefa Técnica | [TASK] Setup da estrutura base do backend NestJS com TypeScript | 3 | Marcus Nascimento | Em andamento |
+| **#25** | Tarefa Técnica | [TASK] Setup da estrutura base do frontend React com Vite + TS | 3 | Rainan Reis | Em andamento |
+| **#26** | Tarefa Técnica | [TASK] Configuração de variáveis de ambiente (.env.example) | 2 | Pedro Gomes | Em andamento |
+| **#27** | Tarefa Técnica | [TASK] Modelagem relacional e migrações PostgreSQL via ORM | 5 | Marcus Nascimento | Em andamento |
 
 ### 📖 User Stories Funcionais
 
@@ -36,7 +36,7 @@ Os itens abaixo foram extraídos do Product Backlog com base nas prioridades MoS
 | **#4** | User Story | [PBI-04] Detecção de serviço indisponível | 3 | Marcus Nascimento | Em andamento |
 | **#5** | User Story | [PBI-05] Detecção de ausência de métricas | 3 | Israel Lemes | Em andamento |
 | **#9** | User Story | [PBI-09] Histórico de coletas persistido no PostgreSQL | 5 | Israel Lemes | Em andamento |
-| **#18** | User Story | [PBI-18] Tolerância a falhas e indisponibilidade de APIs externas | 5 | Thales Cambraia, Marcus Nascimento | Em andamento |
+| **#18** | User Story | [PBI-18] Tolerância a falhas e indisponibilidade de APIs externas | 5 | Israel Lemes | Em andamento |
 | **#23** | User Story | [PBI-23] IHC — Personas, fluxos e prototipação de alta fidelidade no Figma | 8 | Nadla Ferreira, Rainan Reis | Em andamento |
 
 
