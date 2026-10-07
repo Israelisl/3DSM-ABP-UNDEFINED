@@ -22,4 +22,19 @@ export class ColetasService {
     }
     return coleta;
   }
+  async obterUltimaColetaValida(servicoId: number) {
+    const ultimaColeta = await this.coletasRepository.findLatestSuccessful(servicoId);
+
+    if (!ultimaColeta) {
+      throw new NotFoundException(
+        `Nenhuma coleta válida anterior encontrada para o serviço ID ${servicoId}`,
+      );
+    }
+
+    return {
+      fonte: 'CACHE_FALLBACK',
+      mensagem: 'Dados recuperados da última coleta válida preservada',
+      dados: ultimaColeta,
+    };
+  }
 }
