@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { ColetasRepository } from './coletas.repository';
-import { CreateColetaDto } from './dto/create-coletas.dto';
-import { FilterColetasDto } from './dto/filter-coletas.dto';
+import { CreateColetaDto } from './dto/create-coleta.dto';
+import { FilterColetasDto } from './dto/filter-coleta.dto';
 
 @Injectable()
 export class ColetasService {

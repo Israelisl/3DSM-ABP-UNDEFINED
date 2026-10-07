@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../../database/prisma.service';
-import { CreateColetaDto } from './dto/create-coletas.dto';
-import { FilterColetasDto } from './dto/filter-coletas.dto';
+import { CreateColetaDto } from './dto/create-coleta.dto';
+import { FilterColetasDto } from './dto/filter-coleta.dto';
 
 export interface IColetasRepository {
   create(data: CreateColetaDto): Promise<any>;
