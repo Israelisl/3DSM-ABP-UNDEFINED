@@ -12,10 +12,10 @@
     "incremental": true,
     "skipLibCheck": true,
     "strict": true,
-    "strictNullChecks": true,
     "noImplicitAny": true,
-    "strictBindCallApply": false,
+    "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node", "jest"]
   }
 }
