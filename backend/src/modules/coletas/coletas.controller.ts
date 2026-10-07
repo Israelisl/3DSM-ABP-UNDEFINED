@@ -7,13 +7,22 @@ import {
   Param, 
   ParseIntPipe, 
   HttpCode, 
-  HttpStatus 
+  HttpStatus,
+  UsePipes,
+  ValidationPipe,
 } from '@nestjs/common';
 import { ColetasService } from './coletas.service';
-import { CreateColetaDto } from './dto/create-coletas.dto';
-import { FilterColetasDto } from './dto/filter-coletas.dto';
+import { CreateColetaDto } from './dto/create-coleta.dto';
+import { FilterColetasDto } from './dto/filter-coleta.dto';
 
 @Controller('coletas')
+@UsePipes(
+  new ValidationPipe({
+    whitelist: true,
+    transform: true,
+    forbidNonWhitelisted: true,
+  }),
+)
 export class ColetasController {
   constructor(private readonly coletasService: ColetasService) {}
 
